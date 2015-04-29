@@ -40,7 +40,7 @@
     	<path id="ivy.lib.path">
     		<pathelement location="${ivy.jar.file}"/>
     	</path>
-    	<taskdef resource="org/apache/ivy/ant/antlib.xml"
+    	<taskdef resource="net/sf/antcontrib/antlib.xml" classpath="/home/chandu/apps/ant-1.9.4/lib/antcontrib.jar"
     	          uri="antlib:org.apache.ivy.ant" classpathref="ivy.lib.path"/>
     </target>    
          
